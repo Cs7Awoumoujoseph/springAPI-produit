@@ -62,7 +62,7 @@ export PORT=8080
 
 Sous Windows PowerShell, utilisez `$env:DB_URL`, `$env:DB_USERNAME`, `$env:DB_PASSWORD` et `$env:PORT`.
 
-Créez au préalable la base de données PostgreSQL correspondante. Hibernate est configuré avec `ddl-auto=update), ce qui peut modifier le schéma au démarrage ; en production, préférez une stratégie de migrations contrôlées.
+Créez au préalable la base de données PostgreSQL correspondante. Hibernate est configuré avec `ddl-auto=update`, ce qui peut modifier le schéma au démarrage ; en production, préférez une stratégie de migrations contrôlées.
 
 ## Installation et lancement
 
